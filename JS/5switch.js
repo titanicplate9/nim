@@ -1,4 +1,4 @@
-var today = new Date().getday();
+var today = new Date().getDay();
 var day;
 
 switch (today) {
