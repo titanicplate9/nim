@@ -23,6 +23,10 @@ switch (today) {
   case 6:
     day = "Saturday";
     break;
+
+  default:
+    day = "Invalid day";
 }
+
 document.write("Today is: " + day);
 console.log("Today is: " + day);
