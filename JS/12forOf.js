@@ -5,7 +5,6 @@ const car = {
   isABS: true,
 };
 
-<<<<<<< HEAD
 const cars = ["benz", "bmw", "peykan", "pride", "alfa"];
 
 for (i in car) {
@@ -22,13 +21,4 @@ for (i of cars) {
 }
 // فور این خارجشو و فور او داخلشو
 
-=======
-/*for (i in car) {
-  console.log(i);
-  document.write(car[i]);
-}*/
 
-for (key of car) {
-  console.log(key);
-}
->>>>>>> a463739c207db93fbb717789afe55c704aac8c70
